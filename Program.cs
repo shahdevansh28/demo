@@ -19,14 +19,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
-app.UseHttpsRedirection();
-
 app.UseCors(
     policy => policy.AllowAnyHeader().
     AllowAnyMethod().SetIsOriginAllowed(
         origin => true).AllowCredentials());
-
+app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
