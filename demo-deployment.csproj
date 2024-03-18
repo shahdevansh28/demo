@@ -7,8 +7,7 @@
     <RootNamespace>demo_deployment</RootNamespace>
     <UserSecretsId>28b30d28-bb98-4631-bca8-c8b7cb9d012c</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-    <DockerfileContext>.</DockerfileContext>
-	<InvariantGlobalization>true</InvariantGlobalization>
+    <InvariantGlobalization>true</InvariantGlobalization>
   </PropertyGroup>
 
   <ItemGroup>
